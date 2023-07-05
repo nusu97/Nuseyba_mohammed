@@ -1,0 +1,62 @@
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.gallery {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px solid pink;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.photo-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+
+.photo-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.photo-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+
+.date {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+}
